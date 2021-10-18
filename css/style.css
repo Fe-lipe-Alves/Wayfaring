@@ -18,11 +18,23 @@
 }
 
 #video::after {
-    content: '';
-    width: 100%;
-    height: 100%;
     background: rgba(70, 88, 93, 0.27);
+    content: '';
+    height: 100%;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    width: 100%;
+}
+
+#grid .item-grid {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#grid .item-grid .img-item-grid {
+    min-height: 100%;
+    height: auto;
+    /*max-width: 100%;*/
 }
