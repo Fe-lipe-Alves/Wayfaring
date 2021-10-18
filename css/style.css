@@ -34,7 +34,25 @@
 }
 
 #grid .item-grid .img-item-grid {
-    min-height: 100%;
     height: auto;
-    /*max-width: 100%;*/
+    min-height: 100%;
+}
+
+#about {
+    background: rgba(70, 88, 93, 0.67);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    position: relative;
+}
+
+#about::before {
+    background-image: url(../images/parallax.jpg);
+    background-attachment: fixed;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
